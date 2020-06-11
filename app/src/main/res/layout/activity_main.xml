@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_foreground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/n1"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:hint="1st Number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/colorAccent"
+        android:hint="2nd Number"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <Button
+            android:id="@+id/btnMultiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <Button
+            android:id="@+id/btnDivison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="165dp" />
+
+        <Button
+            android:id="@+id/btSubstraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="28dp"
+            tools:layout_editor_absoluteX="316dp"
+            tools:layout_editor_absoluteY="165dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/colorAccent"
+        android:text="Ans is"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="278dp" />
+</LinearLayout>
